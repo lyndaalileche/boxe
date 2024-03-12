@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+}
+.hero{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  flex-wrap: wrap;
+  
+}
+.hero ul{
+  display: flex;
+  gap: 35px;
+}
+.hero li{
+  list-style: none;
+}
+.hero a{
+  text-decoration: none;
+  color: black;
+}
+span{
+  color: orange;
+}
+main{
+  background-color: black;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+}
+.white{
+  background-color: rgba(255, 255, 255, 0.861);
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 50%;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+ 
+
+}
+.card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.pourcent {
+  background-color: #000000;
+  border-radius: 20%;
+  padding: 10px;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 10px;
+  right: -3%;
+}
+.dback {
+  position: relative;
+}
+h5 {
+  display: flex;
+  justify-content: center;
+  margin-top: -3vh;
+}
+.ord {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3vh;
+  font-size: 24px;
+}
+button {
+  color:white ;
+  margin-top: -1vh;
+  background-color: #000000;
+  padding: 10px 30px 10px 30px;
+}
+.a {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin-top: -15px;
+  border-radius: 20%;
+  
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+li {
+  justify-content: space-around;
+  padding: 15px;
+}
+.grey {
+  background-color: rgba(128, 128, 128, 0.485);
+  flex-wrap: wrap;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  justify-content: center;
+}
+.ordicon {
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  justify-content: center;
+}
+.social {
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  margin-top: 6vh;
+  justify-content: center;
+}
+.icon p {
+  color: white;
+  margin-top: 3vh;
+  margin-left: auto;
+  justify-content: center;
+}
+.copyright {
+  color: white;
+  display: flex;
+  margin-left: 650px;
+
+  margin-top: 5vh;
+}
+hr{
+  border-color: rgba(255, 255, 255, 0.409);
+  margin: auto;
+  width: 60%;
+  margin-top: 3vh;
+  
+  
+}
